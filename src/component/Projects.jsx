@@ -2,8 +2,8 @@ import { Card } from "./ui/card";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { ExternalLink, Github, ArrowRight } from "lucide-react";
-import project1 from "../assets/netchill-Screenshot.jpg";
-import project2 from "../assets/carplug-Screenshot.png";
+import project1 from "../assets/netchill-screenshot.jpg";
+import project2 from "../assets/carplug-screenshot.png";
 import project3 from "../assets/Pirate-gang-screenshot.png";
 import project4 from "../assets/backend-screenshot.png";
 
