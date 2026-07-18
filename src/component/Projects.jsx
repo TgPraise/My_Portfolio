@@ -6,6 +6,8 @@ import project1 from "../assets/netchill-screenshot.jpg";
 import project2 from "../assets/carplug-screenshot.png";
 import project3 from "../assets/Pirate-gang-screenshot.png";
 import project4 from "../assets/backend-screenshot.png";
+import project5 from "../assets/achievers_screenshot.png";
+import project6 from "../assets/zlytic_screenshot.png";
 
 const Projects = () => {
   const projects = [
@@ -47,6 +49,26 @@ const Projects = () => {
       technologies: ["Python", "FastAPI", "PostgresQL"],
       liveUrl: "https://fastapi-ecommerce-s885.onrender.com/docs",
       githubUrl: "https://github.com/TgPraise/fastapi-Ecommerce.git",
+      featured: false
+    },
+    {
+      id: 5,
+      title: "Safety And Security consultancy website",
+      description: "A modern website for a safety and security consultancy firm, featuring services, testimonials, contact information, real world projects, live location, and preview of services.",
+      image: project5,
+      technologies: ["React", "Tailwind CSS", "JavaScript"],
+      liveUrl: "https://archivers-website.vercel.app/",
+      githubUrl: "https://github.com/TgPraise/Archivers-website.git",
+      featured: false
+    },
+    {
+      id: 6,
+      title: "Zlytic Website",
+      description: "A modern website for a Zlytic, featuring services, testimonials, contact information, real world projects, live location, and preview of services.",
+      image: project6,
+      technologies: ["React", "Tailwind CSS", "JavaScript"],
+      liveUrl: "https://zlytic-website.onrender.com",
+      githubUrl: "https://github.com/ZlyticBusiness/Zlytic-Website.git",
       featured: false
     }
   ];
@@ -151,14 +173,14 @@ const Projects = () => {
           ))}
         </div>
 
-        <div className="text-center mt-16 animate-fade-in">
+        {/* <div className="text-center mt-16 animate-fade-in">
           <Button 
             className="group bg-transparent border-2 border-blue-600 text-blue-500 hover:bg-blue-600/10 font-medium px-8 py-6 text-base rounded-md transition-all duration-200"
           >
             View All Projects
             <ArrowRight className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -3,7 +3,7 @@ import { Card } from "./ui/card";
 const About = () => {
   const achievements = [
     { number: "30+", label: "Projects Completed" },
-    { number: "5+", label: "Years Experience" },
+    { number: "3+", label: "Years Experience" },
     { number: "50+", label: "Happy Clients" },
     { number: "100%", label: "Satisfaction Rate" },
   ];

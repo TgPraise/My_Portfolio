@@ -1,6 +1,8 @@
 import React from "react";
 import Image1 from "../assets/Tech-Camp-Javascript-class(2).jpg";
 import Image2 from "../assets/13457.jpg";
+import Image3 from "../assets/Eden-photo.jpg";
+import Image4 from "../assets/setup.jpg";
 
 const experiences = [
   {
@@ -19,6 +21,24 @@ const experiences = [
     period: "2025 (Aug) — 2025 (Sept)",
     description:
       "Taught young minds with zero JavaScript experience the basics of JavaScript and how to build simple web applications.",
+  },
+
+  {
+    role: "Lead Front-End Developer",
+    company: "Zlytic",
+    image: Image4,
+    period: "2025 (Oct) — 2026 (Feb)",
+    description:
+      "Led a team of developers in building scalable web applications and mentored junior developers.",
+  },
+
+  {
+    role: "IT Consultant",
+    company: "Eden Hotels, Eket",
+    image: Image3,
+    period: "2026 (Mar) — Present",
+    description:
+      "Provided technical support and consulting services to enhance operational efficiency and user experience.",
   },
 ];
 
@@ -42,11 +62,11 @@ const Experience = () => {
             key={index}
             className="bg-[#0b1220] border border-[#1b2a4a] hover:border-blue-500 transition-all duration-300 rounded-xl p-6 flex flex-col gap-4 shadow-lg hover:-translate-y-1"
           >
-            <div className="w-full h-48 overflow-hidden rounded-lg">
+            <div className="w-full h-54 overflow-hidden rounded-lg">
               <img
                 src={exp.image}
                 alt={exp.role}
-                className="w-full h-full object-cover hover:scale-105 transition duration-300"
+                className="w-full h-full object-cover hover:scale-105 transition duration-300b"
               />
             </div>
 

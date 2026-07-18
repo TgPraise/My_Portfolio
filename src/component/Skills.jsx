@@ -12,8 +12,8 @@ const Skills = () => {
         { name: "Tailwind CSS", level: 92 },
         { name: "JavaScript (ES6+)", level: 90 },
         { name: "HTML5/CSS3", level: 99 },
-        { name: "Progressive Web Apps", level: 95 },
-        { name: "Mobile-First Design", level: 95 }
+        { name: "Node.js", level: 90 },
+        { name: "Next.js", level: 90 }
       ],
       color: "from-blue-500 to-purple-600"
     },
