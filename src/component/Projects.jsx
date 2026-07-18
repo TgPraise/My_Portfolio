@@ -7,7 +7,7 @@ import project2 from "../assets/carplug-screenshot.png";
 import project3 from "../assets/Pirate-gang-screenshot.png";
 import project4 from "../assets/backend-screenshot.png";
 import project5 from "../assets/achievers_screenshot.png";
-import project6 from "../assets/zlytic_screenshot.png";
+import project6 from "../assets/Zlytic_screenshot.png";
 
 const Projects = () => {
   const projects = [
