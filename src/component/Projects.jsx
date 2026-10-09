@@ -6,8 +6,10 @@ import project1 from "../assets/netchill-screenshot.jpg";
 import project2 from "../assets/carplug-screenshot.png";
 import project3 from "../assets/Pirate-gang-screenshot.png";
 import project4 from "../assets/backend-screenshot.png";
-import project5 from "../assets/achievers_screenshot.png";
+import project5 from "../assets/Achiever_homepage.png";
 import project6 from "../assets/zlytic_screenshot.png";
+import project7 from "../assets/sandy's-screenshot.png";
+import project8 from "../assets/prestige-website.png";
 
 const Projects = () => {
   const projects = [
@@ -53,22 +55,42 @@ const Projects = () => {
     },
     {
       id: 5,
-      title: "Safety And Security consultancy website",
-      description: "A modern website for a safety and security consultancy firm, featuring services, testimonials, contact information, real world projects, live location, and preview of services.",
+      title: "Achievers Safety-Security consultancy",
+      description: "A modern website for a safety and security consultancy firm, featuring services, testimonials, contact information, real world projects, live location, and preview of services. with modern functionalities and stunning aminations the website stands out as a professional and reliable online presence for the consultancy firm.",
       image: project5,
       technologies: ["React", "Tailwind CSS", "JavaScript"],
-      liveUrl: "https://archivers-website.vercel.app/",
+      liveUrl: "https://www.achieversconsultancy.org/",
       githubUrl: "https://github.com/TgPraise/Archivers-website.git",
       featured: false
     },
     {
       id: 6,
       title: "Zlytic Website",
-      description: "A modern website for a Zlytic, featuring services, testimonials, contact information, real world projects, live location, and preview of services.",
+      description: "A modern website for a Zlytic, featuring services, testimonials, contact information, real world projects, live location, and preview of services. nice blue and white theme displaying the quatity of the services and the company.",
       image: project6,
       technologies: ["React", "Tailwind CSS", "JavaScript"],
       liveUrl: "https://zlytic-website.onrender.com",
       githubUrl: "https://github.com/ZlyticBusiness/Zlytic-Website.git",
+      featured: false
+    },
+    {
+      id: 7,
+      title: "Sandy's111 Website",
+      description: "A modern club website for sandy's111, featuring services, booking, contact information, ordering and delivery, live location, and venue rental. A party and dinner club were vibes meet good music beautifully represented.",
+      image: project7,
+      technologies: ["React", "Tailwind CSS", "JavaScript"],
+      liveUrl: "https://sandy-website-demo.vercel.app/",
+      githubUrl: "https://github.com/TgPraise/Sandys111-website.git",
+      featured: false
+    },
+    {
+      id: 8,
+      title: "Prestige kitchen hulmes Website",
+      description: "A modern resturant website for prestige kitchen hulmes, featuring services, booking, contact information, ordering and delivery, live location, and venue rental. made with a very beautiful representation of the resturant and its services.",
+      image: project8,
+      technologies: ["React", "Tailwind CSS", "JavaScript"],
+      liveUrl: "https://prestige-kitchen-hulmes.vercel.app/",
+      githubUrl: "https://github.com/TgPraise/prestige-kitchen-hulmes.git",
       featured: false
     }
   ];
