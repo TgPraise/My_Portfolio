@@ -10,6 +10,7 @@ import project5 from "../assets/Achiever_homepage.png";
 import project6 from "../assets/Zlytic_screenshot.png";
 import project7 from "../assets/sandy's-screenshot.png";
 import project8 from "../assets/prestige-website.png";
+import project9 from "../assets/zanny-cakes.png";
 
 const Projects = () => {
   const projects = [
@@ -91,6 +92,16 @@ const Projects = () => {
       technologies: ["React", "Tailwind CSS", "JavaScript"],
       liveUrl: "https://prestige-kitchen-hulmes.vercel.app/",
       githubUrl: "https://github.com/TgPraise/prestige-kitchen-hulmes.git",
+      featured: false
+    },
+    {
+      id: 9,
+      title: "Zanny Cakes Website",
+      description: "A modern bakery website for Zanny Cakes, featuring services, booking, contact information, ordering and delivery, live location, and venue rental. made with a very beautiful representation of the bakery and its services.",
+      image: project9,
+      technologies: ["React", "Tailwind CSS", "JavaScript"],
+      liveUrl: "https://zanny-cakes-and-pastries.vercel.app/",
+      githubUrl: "https://github.com/TgPraise/zanny-cakes-and-pastries.git",
       featured: false
     }
   ];
